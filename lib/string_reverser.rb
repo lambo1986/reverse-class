@@ -9,5 +9,9 @@ class StringReverser
       end
       reversed.join('')
     end
+
+    def length(str)
+      str.split('').count
+    end
   end
 end
